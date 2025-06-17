@@ -1,32 +1,34 @@
-# Calculadora Matemática
+# Análise de Dados Ecoloop
 
-Este é um programa Python simples que realiza operações matemáticas básicas e análises de números.
+Este projeto realiza uma análise automatizada dos dados de depósitos e pontos das máquinas Ecoloop.
 
-## Funcionalidades
+## Como foi realizado
 
-- Realiza as quatro operações matemáticas básicas:
-  - Soma
-  - Subtração
-  - Multiplicação
-  - Divisão
-- Analisa números:
-  - Verifica se é par ou ímpar
-  - Verifica se é número primo
+### Ferramenta usada
+- Python com biblioteca pandas para análise de dados
 
-## Como usar
+### Processo
+1. Leitura do arquivo Excel com os dados das máquinas
+2. Análise automática usando funções do pandas:
+   - `value_counts()` para contar depósitos por máquina
+   - `sum()` para calcular o total de pontos
 
-1. Certifique-se de ter o Python instalado em seu computador
-2. Clone este repositório
-3. Execute o arquivo `calculadora.py`:
-   ```bash
-   python calculadora.py
-   ```
-4. Siga as instruções na tela para inserir os números
+### Resultados
 
-## Requisitos
+#### Depósitos por máquina:
+- Máquina 97: 30 depósitos
+- Máquina 123: 25 depósitos
+- Máquina 100: 21 depósitos
+- Máquina 94: 20 depósitos
+- Máquina 106: 2 depósitos
+- Máquinas 119 e 126: 1 depósito cada
 
-- Python 3.x
+#### Total de pontos: 635 pontos
 
-## Autor
+### Vantagens
+- Processamento rápido
+- Código simples
+- Resultados precisos
+- Fácil de modificar
 
-[Seu nome aqui] 
+A solução é eficiente porque automatiza a análise e fornece resultados confiáveis de forma rápida. 
